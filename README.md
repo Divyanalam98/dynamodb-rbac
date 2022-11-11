@@ -17,6 +17,10 @@ ABAC is defined as an access control method where access is mediated based on a 
 
 ![Image]()
 
+For instance, in the above figure, if the following predefined policy is satisfied, only then the access is granted:
+
+IF a subject in the Applied Data Science Department with the role of HOD who is trying to read a finance folder during college hours and is connected to the LAN in San Jose, THEN they are permitted to read the folder.
+
 ## Implementing bulk CSV ingestion to Amazon DynamoDB:
 
 You can use your own CSV file or download the test file provided in this repo. 
