@@ -21,24 +21,24 @@ For instance, in the above figure, if the following predefined policy is satisfi
 
 IF a subject in the Applied Data Science Department with the role of HOD who is trying to read a finance folder during college hours and is connected to the LAN in San Jose, THEN they are permitted to read the folder.
 
-## Implementing bulk CSV ingestion to Amazon DynamoDB:
+## Implementing bulk CSV ingestion to Amazon DynamoDB
 
 You can use your own CSV file or download the test file provided in this repo. 
 
-## Steps to Download CloudFormation template:
+## Steps to Download CloudFormation template
 1. Click on csvtodynamo.template.
 2. Click on the Raw button.
 3. Save Page As > Remove any file extensions so that the file reads like "csvtodynamo.template". Click save.
 
-## Flowchart for Amazon DynamoDB:
+## Flowchart for Amazon DynamoDB
 
 ![Image]()
 
-## Output Generation:
+## Output Generation
 
 The data to be accessed is stored in a .csv file which is later uploaded to S3 bucket. The full admin user would be able view the full table and perform all types of operations and the read-only user can only view certain columns.
 
-## Output Images:
+## Output Images
 
 ![Image]()
 *Figure: Read-only user unable to edit or make changes*
