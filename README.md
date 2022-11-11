@@ -1,6 +1,6 @@
-# Implementing Role-based Access Control in DynamoDB
+# Implementing Role-based Access Control for DynamoDB
 
-The initial goal of the project was to implement Attribute based Access Control in NoSQL Databases like DynamoDB. The database service i.e., authorization based on tags is not provided.
+The initial goal of the project was to implement Attribute based Access Control in NoSQL Databases like DynamoDB. The database service i.e., authorization based on tags is not provided. Therefore, we proceeded with Role-based Access Control.
 
 NoSQL Databases: Databases with flexible schemas unlike relational databases.
 
@@ -33,6 +33,10 @@ You can use your own CSV file or download the test file provided in this repo.
 ## Flowchart for Amazon DynamoDB:
 
 ![Image]()
+
+## Output Generation:
+
+The data to be accessed is stored in a .csv file which is later uploaded to S3 bucket. The full admin user would be able view the full table and perform all types of operations and the read-only user can only view certain columns.
 
 ## Output Images:
 
